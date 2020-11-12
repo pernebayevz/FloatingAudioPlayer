@@ -1,0 +1,16 @@
+PODS:
+  - FloatingAudioPlayer (0.1.0)
+
+DEPENDENCIES:
+  - FloatingAudioPlayer (from `../`)
+
+EXTERNAL SOURCES:
+  FloatingAudioPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FloatingAudioPlayer: 53707f51c46ff763158d487c9f823f952199ecc1
+
+PODFILE CHECKSUM: 5bcdea5f0e1e5615bdd2e7c39612117be909e40a
+
+COCOAPODS: 1.10.0

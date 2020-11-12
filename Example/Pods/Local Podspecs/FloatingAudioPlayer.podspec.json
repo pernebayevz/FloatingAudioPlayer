@@ -1,0 +1,22 @@
+{
+  "name": "FloatingAudioPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of FloatingAudioPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pernebayev/FloatingAudioPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pernebayev": "devlopernebayev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pernebayev/FloatingAudioPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FloatingAudioPlayer/Classes/**/*"
+}
