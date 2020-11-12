@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FloatingAudioPlayer_Example' do
+  pod 'FloatingAudioPlayer', :path => '../'
+
+  target 'FloatingAudioPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
