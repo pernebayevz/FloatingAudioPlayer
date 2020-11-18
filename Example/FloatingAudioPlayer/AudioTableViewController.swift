@@ -118,7 +118,7 @@ extension AudioTableViewController {
         self.currentPlayinAudioIndex = index
         let audioModel: AudioModel = (mode == .music) ? musicArray[index]:podcastArray[index]
         
-        let model = FloatingAudioModel(name: audioModel.name, author: audioModel.author, imageURL: "https://cdn.pixabay.com/photo/2018/03/20/09/51/sky-3242683_1280.jpg", audioProgress: 0)
+        let model = FloatingAudioModel(name: audioModel.name, author: audioModel.author, imageURL: nil, audioProgress: 0)
         FloatingAudioPlayer.play(audioModel: model, delegate: self)
         
         guard let path = Bundle.main.path(forResource: "\(audioModel.fileName).mp3", ofType:nil) else {
