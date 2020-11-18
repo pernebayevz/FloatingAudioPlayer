@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'A Swift floating/draggable audio player like in Spotify & Apple Music apps that remains on top of all screens.'
+'FloatingAudioPlayer is lightweight floating/draggable Audio Player View written in Swift.'
                        DESC
 
   s.homepage         = 'https://github.com/pernebayevz/FloatingAudioPlayer'
