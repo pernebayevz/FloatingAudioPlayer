@@ -9,11 +9,27 @@
 /* Begin PBXBuildFile section */
 		3B734592DE991C46985DBFB0 /* Pods_FloatingAudioPlayer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D5E0162210DB8A958F48AF /* Pods_FloatingAudioPlayer_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		690E21782562BE5900F989E5 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E21772562BE5900F989E5 /* AudioModel.swift */; };
+		690E21862562C30900F989E5 /* English5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E217F2562C30700F989E5 /* English5.mp3 */; };
+		690E21872562C30900F989E5 /* English7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21802562C30700F989E5 /* English7.mp3 */; };
+		690E21882562C30900F989E5 /* English3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21812562C30800F989E5 /* English3.mp3 */; };
+		690E21892562C30900F989E5 /* English2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21822562C30800F989E5 /* English2.mp3 */; };
+		690E218A2562C30900F989E5 /* English6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21832562C30800F989E5 /* English6.mp3 */; };
+		690E218B2562C30900F989E5 /* English1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21842562C30900F989E5 /* English1.mp3 */; };
+		690E218C2562C30900F989E5 /* English4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 690E21852562C30900F989E5 /* English4.mp3 */; };
+		69138FC6256122110086C2B2 /* AudioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69138FC5256122110086C2B2 /* AudioTableViewController.swift */; };
+		69138FCA256122770086C2B2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69138FC9256122770086C2B2 /* TabBarController.swift */; };
+		6986939E256576800040604B /* bleu_channel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6986939D256576800040604B /* bleu_channel.mp3 */; };
+		69D541D1256147E300754597 /* endlessmotion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D541CB256147E200754597 /* endlessmotion.mp3 */; };
+		69D541D2256147E300754597 /* elevate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D541CC256147E200754597 /* elevate.mp3 */; };
+		69D541D3256147E300754597 /* allthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D541CD256147E200754597 /* allthat.mp3 */; };
+		69D541D4256147E300754597 /* inspire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D541CE256147E200754597 /* inspire.mp3 */; };
+		69D541D5256147E300754597 /* perception.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69D541CF256147E300754597 /* perception.mp3 */; };
+		69F7A59B255DAA4E004AA8B3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7A599255DAA4E004AA8B3 /* TableViewCell.swift */; };
+		69F7A59C255DAA4E004AA8B3 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F7A59A255DAA4E004AA8B3 /* TableViewCell.xib */; };
 		DD72126FAA35583F932D6A24 /* Pods_FloatingAudioPlayer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD28EA9DB503E41939E41E5 /* Pods_FloatingAudioPlayer_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,22 +47,38 @@
 		434E28219B4D62FD7A929F45 /* Pods-FloatingAudioPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAudioPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		469C407886626EC5532D01F9 /* Pods-FloatingAudioPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAudioPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4DD28EA9DB503E41939E41E5 /* Pods_FloatingAudioPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingAudioPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		583639B322C889D821C89177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		583639B322C889D821C89177 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5FDB3CD7775F613119427A15 /* Pods-FloatingAudioPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAudioPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FloatingAudioPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingAudioPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* FloatingAudioPlayer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingAudioPlayer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		690E21772562BE5900F989E5 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		690E217F2562C30700F989E5 /* English5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English5.mp3; sourceTree = "<group>"; };
+		690E21802562C30700F989E5 /* English7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English7.mp3; sourceTree = "<group>"; };
+		690E21812562C30800F989E5 /* English3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English3.mp3; sourceTree = "<group>"; };
+		690E21822562C30800F989E5 /* English2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English2.mp3; sourceTree = "<group>"; };
+		690E21832562C30800F989E5 /* English6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English6.mp3; sourceTree = "<group>"; };
+		690E21842562C30900F989E5 /* English1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English1.mp3; sourceTree = "<group>"; };
+		690E21852562C30900F989E5 /* English4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = English4.mp3; sourceTree = "<group>"; };
+		69138FC5256122110086C2B2 /* AudioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTableViewController.swift; sourceTree = "<group>"; };
+		69138FC9256122770086C2B2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		6986939D256576800040604B /* bleu_channel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bleu_channel.mp3; sourceTree = "<group>"; };
+		69D541CB256147E200754597 /* endlessmotion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endlessmotion.mp3; sourceTree = "<group>"; };
+		69D541CC256147E200754597 /* elevate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elevate.mp3; sourceTree = "<group>"; };
+		69D541CD256147E200754597 /* allthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allthat.mp3; sourceTree = "<group>"; };
+		69D541CE256147E200754597 /* inspire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inspire.mp3; sourceTree = "<group>"; };
+		69D541CF256147E300754597 /* perception.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = perception.mp3; sourceTree = "<group>"; };
+		69F7A599255DAA4E004AA8B3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		69F7A59A255DAA4E004AA8B3 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		E4F505396F737C8898902C34 /* Pods-FloatingAudioPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAudioPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E59C7E387968F95EAC9DFC94 /* FloatingAudioPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FloatingAudioPlayer.podspec; path = ../FloatingAudioPlayer.podspec; sourceTree = "<group>"; };
+		E59C7E387968F95EAC9DFC94 /* FloatingAudioPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FloatingAudioPlayer.podspec; path = ../FloatingAudioPlayer.podspec; sourceTree = "<group>"; };
 		F3D5E0162210DB8A958F48AF /* Pods_FloatingAudioPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingAudioPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD7F00533E3AD51CD585C92D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD7F00533E3AD51CD585C92D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +109,6 @@
 				5FDB3CD7775F613119427A15 /* Pods-FloatingAudioPlayer_Tests.debug.xcconfig */,
 				E4F505396F737C8898902C34 /* Pods-FloatingAudioPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,12 +145,10 @@
 		607FACD21AFB9204008FA782 /* Example for FloatingAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
+				69FF87BD256003FC0002C553 /* Application */,
+				69FF87C02560045F0002C553 /* Model */,
+				69FF87BA256003EF0002C553 /* View */,
+				69FF87BE256004190002C553 /* Resource */,
 			);
 			name = "Example for FloatingAudioPlayer";
 			path = FloatingAudioPlayer;
@@ -158,6 +187,96 @@
 				583639B322C889D821C89177 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		69138FC3256121E60086C2B2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				69F7A599255DAA4E004AA8B3 /* TableViewCell.swift */,
+				69F7A59A255DAA4E004AA8B3 /* TableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		69138FC4256121EC0086C2B2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				69138FC5256122110086C2B2 /* AudioTableViewController.swift */,
+				69138FC9256122770086C2B2 /* TabBarController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		69D541C9256147C900754597 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				6986939D256576800040604B /* bleu_channel.mp3 */,
+				69D541CD256147E200754597 /* allthat.mp3 */,
+				69D541CC256147E200754597 /* elevate.mp3 */,
+				69D541CB256147E200754597 /* endlessmotion.mp3 */,
+				69D541CE256147E200754597 /* inspire.mp3 */,
+				69D541CF256147E300754597 /* perception.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		69D541CA256147CD00754597 /* Podcast */ = {
+			isa = PBXGroup;
+			children = (
+				690E21842562C30900F989E5 /* English1.mp3 */,
+				690E21822562C30800F989E5 /* English2.mp3 */,
+				690E21812562C30800F989E5 /* English3.mp3 */,
+				690E21852562C30900F989E5 /* English4.mp3 */,
+				690E217F2562C30700F989E5 /* English5.mp3 */,
+				690E21832562C30800F989E5 /* English6.mp3 */,
+				690E21802562C30700F989E5 /* English7.mp3 */,
+			);
+			name = Podcast;
+			sourceTree = "<group>";
+		};
+		69FF87BA256003EF0002C553 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69138FC4256121EC0086C2B2 /* ViewController */,
+				69138FC3256121E60086C2B2 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		69FF87BD256003FC0002C553 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		69FF87BE256004190002C553 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				69D541CA256147CD00754597 /* Podcast */,
+				69D541C9256147C900754597 /* Music */,
+				69FF87BF256004380002C553 /* Image */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		69FF87BF256004380002C553 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		69FF87C02560045F0002C553 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				690E21772562BE5900F989E5 /* AudioModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,23 +327,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1210;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1210;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "FloatingAudioPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -246,9 +365,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				690E21882562C30900F989E5 /* English3.mp3 in Resources */,
+				69D541D4256147E300754597 /* inspire.mp3 in Resources */,
+				69D541D5256147E300754597 /* perception.mp3 in Resources */,
+				69F7A59C255DAA4E004AA8B3 /* TableViewCell.xib in Resources */,
+				690E21872562C30900F989E5 /* English7.mp3 in Resources */,
+				690E218C2562C30900F989E5 /* English4.mp3 in Resources */,
+				690E218A2562C30900F989E5 /* English6.mp3 in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				69D541D2256147E300754597 /* elevate.mp3 in Resources */,
+				690E21892562C30900F989E5 /* English2.mp3 in Resources */,
+				690E21862562C30900F989E5 /* English5.mp3 in Resources */,
+				69D541D3256147E300754597 /* allthat.mp3 in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				69D541D1256147E300754597 /* endlessmotion.mp3 in Resources */,
+				690E218B2562C30900F989E5 /* English1.mp3 in Resources */,
+				6986939E256576800040604B /* bleu_channel.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +463,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				69F7A59B255DAA4E004AA8B3 /* TableViewCell.swift in Sources */,
+				69138FCA256122770086C2B2 /* TabBarController.swift in Sources */,
+				69138FC6256122110086C2B2 /* AudioTableViewController.swift in Sources */,
+				690E21782562BE5900F989E5 /* AudioModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,14 +490,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -378,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,14 +514,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,7 +550,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,14 +571,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +600,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +613,14 @@
 			baseConfigurationReference = 469C407886626EC5532D01F9 /* Pods-FloatingAudioPlayer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FloatingAudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +629,14 @@
 			baseConfigurationReference = 434E28219B4D62FD7A929F45 /* Pods-FloatingAudioPlayer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = FloatingAudioPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +657,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingAudioPlayer_Example.app/FloatingAudioPlayer_Example";
 			};
 			name = Debug;
@@ -538,7 +675,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingAudioPlayer_Example.app/FloatingAudioPlayer_Example";
 			};
 			name = Release;

@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		103F7C276AEB167C3B6EEFB58BF7B7E3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77EDA2B58CC109F0157F149CD53D1D /* ReplaceMe.swift */; };
 		37DEAE190BECE8360707C8DBF24DB889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		3B69E5AEA82947CF6177F95021011104 /* FloatingAudioPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 455437DDACE88413DF9B356AC397882A /* FloatingAudioPlayer-dummy.m */; };
 		65DF9075CEF592928295185648FA916F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		690E21A32562C6B100F989E5 /* FloatingAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690E21A22562C6B100F989E5 /* FloatingAudioPlayer.swift */; };
+		695117F22563E7FD0043CC79 /* FloatingAudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695117F12563E7FD0043CC79 /* FloatingAudioModel.swift */; };
+		69F7A55C255D951D004AA8B3 /* FloatingAudioPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F7A55B255D951D004AA8B3 /* FloatingAudioPlayerView.xib */; };
+		69F7A561255D9AB6004AA8B3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F7A560255D9AB6004AA8B3 /* Media.xcassets */; };
+		69F7A566255DA0AF004AA8B3 /* FloatingAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7A565255DA0AF004AA8B3 /* FloatingAudioPlayerView.swift */; };
+		69F7A58C255DA34A004AA8B3 /* FloatingAudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F7A58A255DA34A004AA8B3 /* FloatingAudioPlayerViewController.swift */; };
+		69F7A58D255DA34A004AA8B3 /* FloatingAudioPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F7A58B255DA34A004AA8B3 /* FloatingAudioPlayerViewController.xib */; };
 		842A5A0E26EDBBFB099AA5CEB808D6E6 /* FloatingAudioPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8BF9C0582D83C2D6ACB4AB1883D13CB /* FloatingAudioPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84F78FC296D75E24E233CCF14CFC5D7E /* Pods-FloatingAudioPlayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3ABF2AF5C869ABE92BAF87C8AE49D4 /* Pods-FloatingAudioPlayer_Tests-dummy.m */; };
 		9C1DE402C1512DD9042F2E7383A23109 /* Pods-FloatingAudioPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C34B73419A8890F45080B357E911E7 /* Pods-FloatingAudioPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,7 +47,6 @@
 		0C957B0DE0CCBE34549EA01DE9EFE3BD /* FloatingAudioPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingAudioPlayer-Info.plist"; sourceTree = "<group>"; };
 		1F75FFA3DD3D1FD8549DC4ECC3E6E5B7 /* FloatingAudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingAudioPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		25681B0938709C8BECA1A47AAC8DE281 /* Pods-FloatingAudioPlayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloatingAudioPlayer_Example-Info.plist"; sourceTree = "<group>"; };
-		2B77EDA2B58CC109F0157F149CD53D1D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FloatingAudioPlayer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		2C3834686BB0229674D5B120B49C6E8A /* Pods-FloatingAudioPlayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingAudioPlayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		31748043C31C99FD2767D574D512749D /* FloatingAudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingAudioPlayer.release.xcconfig; sourceTree = "<group>"; };
 		31EBC1125AFE80F2BAE495A72BEF4C0A /* Pods_FloatingAudioPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingAudioPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +58,13 @@
 		58C34B73419A8890F45080B357E911E7 /* Pods-FloatingAudioPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloatingAudioPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
 		5D77F64DE14DA0828596F4DB1F3B0A5A /* FloatingAudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FloatingAudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AFA57F6BE803B97DEBEC59CAA256F4 /* FloatingAudioPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FloatingAudioPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		690E21A22562C6B100F989E5 /* FloatingAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAudioPlayer.swift; sourceTree = "<group>"; };
+		695117F12563E7FD0043CC79 /* FloatingAudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAudioModel.swift; sourceTree = "<group>"; };
+		69F7A55B255D951D004AA8B3 /* FloatingAudioPlayerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatingAudioPlayerView.xib; sourceTree = "<group>"; };
+		69F7A560255D9AB6004AA8B3 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		69F7A565255DA0AF004AA8B3 /* FloatingAudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAudioPlayerView.swift; sourceTree = "<group>"; };
+		69F7A58A255DA34A004AA8B3 /* FloatingAudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAudioPlayerViewController.swift; sourceTree = "<group>"; };
+		69F7A58B255DA34A004AA8B3 /* FloatingAudioPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatingAudioPlayerViewController.xib; sourceTree = "<group>"; };
 		6A66D7A60E8D95370B5DC709D63B6A64 /* Pods-FloatingAudioPlayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloatingAudioPlayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6B41F7D83D2EBB6E1E7DE161F77CC2C0 /* Pods-FloatingAudioPlayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FloatingAudioPlayer_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -142,6 +154,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		69F7A543255D945F004AA8B3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				690E21A22562C6B100F989E5 /* FloatingAudioPlayer.swift */,
+				69F7A565255DA0AF004AA8B3 /* FloatingAudioPlayerView.swift */,
+				69F7A55B255D951D004AA8B3 /* FloatingAudioPlayerView.xib */,
+				69F7A58A255DA34A004AA8B3 /* FloatingAudioPlayerViewController.swift */,
+				69F7A58B255DA34A004AA8B3 /* FloatingAudioPlayerViewController.xib */,
+				69F7A560255D9AB6004AA8B3 /* Media.xcassets */,
+				695117F12563E7FD0043CC79 /* FloatingAudioModel.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		84B5E71619A6B2FCC5ED6299DA2DBB13 /* Pods-FloatingAudioPlayer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +187,7 @@
 		98F31D0FD2EAB3C7D3BFD739D7286326 /* FloatingAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				2B77EDA2B58CC109F0157F149CD53D1D /* ReplaceMe.swift */,
+				69F7A543255D945F004AA8B3 /* Source */,
 				1F6672E7E9A60735B2F12D69C7C9190F /* Pod */,
 				3B34805A30A559CFCBDC10C6F274A8F5 /* Support Files */,
 			);
@@ -316,7 +342,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CC70AC3552AA315335B586CA13A627F1 = {
+						LastSwiftMigration = 1210;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -350,6 +381,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F7A58D255DA34A004AA8B3 /* FloatingAudioPlayerViewController.xib in Resources */,
+				69F7A561255D9AB6004AA8B3 /* Media.xcassets in Resources */,
+				69F7A55C255D951D004AA8B3 /* FloatingAudioPlayerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +401,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695117F22563E7FD0043CC79 /* FloatingAudioModel.swift in Sources */,
+				69F7A566255DA0AF004AA8B3 /* FloatingAudioPlayerView.swift in Sources */,
 				3B69E5AEA82947CF6177F95021011104 /* FloatingAudioPlayer-dummy.m in Sources */,
-				103F7C276AEB167C3B6EEFB58BF7B7E3 /* ReplaceMe.swift in Sources */,
+				69F7A58C255DA34A004AA8B3 /* FloatingAudioPlayerViewController.swift in Sources */,
+				690E21A32562C6B100F989E5 /* FloatingAudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +458,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example.modulemap";
@@ -432,7 +469,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -443,6 +481,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31748043C31C99FD2767D574D512749D /* FloatingAudioPlayer.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -454,16 +493,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer.modulemap";
 				PRODUCT_MODULE_NAME = FloatingAudioPlayer;
 				PRODUCT_NAME = FloatingAudioPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -474,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F75FFA3DD3D1FD8549DC4ECC3E6E5B7 /* FloatingAudioPlayer.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -485,16 +526,18 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FloatingAudioPlayer/FloatingAudioPlayer.modulemap";
 				PRODUCT_MODULE_NAME = FloatingAudioPlayer;
 				PRODUCT_NAME = FloatingAudioPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -515,7 +558,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Example/Pods-FloatingAudioPlayer_Example.modulemap";
@@ -526,7 +569,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -547,7 +591,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests.modulemap";
@@ -558,7 +602,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -615,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -679,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -707,7 +752,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FloatingAudioPlayer_Tests/Pods-FloatingAudioPlayer_Tests.modulemap";
@@ -718,7 +763,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};

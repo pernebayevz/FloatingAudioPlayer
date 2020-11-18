@@ -22,7 +22,7 @@ pod 'FloatingAudioPlayer'
 
 ## Author
 
-pernebayev, devlopernebayev@gmail.com
+pernebayevz, swiftisgreat@gmail.com
 
 ## License
 
