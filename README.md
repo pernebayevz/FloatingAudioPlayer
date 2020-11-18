@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/FloatingAudioPlayer.svg?style=flat)](https://cocoapods.org/pods/FloatingAudioPlayer)
 [![Platform](https://img.shields.io/cocoapods/p/FloatingAudioPlayer.svg?style=flat)](https://cocoapods.org/pods/FloatingAudioPlayer)
 
+FloatingAudioPlayer is lightweight floating/draggable Audio Player View written in Swift.
+<img src="./FloatingAudioPlayer.gif" width="1280" alt="FloatingAudioPlayer is lightweight floating/draggable Audio Player View written in Swift." />
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
