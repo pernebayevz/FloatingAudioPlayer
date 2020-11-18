@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 A Swift floating/draggable audio player like in Spotify & Apple Music apps that remains on top of all screens.
                        DESC
 
-  s.homepage         = 'https://github.com/pernebayev/FloatingAudioPlayer'
+  s.homepage         = 'https://github.com/pernebayevz/FloatingAudioPlayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pernebayevz' => 'swiftisgreat@gmail.com' }
-  s.source           = { :git => 'https://github.com/pernebayevz/FloatingAudioPlayer', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pernebayevz/FloatingAudioPlayer.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.instagram.com/pernebayevz/'
 
   s.ios.deployment_target = '12.0'
@@ -37,6 +37,6 @@ A Swift floating/draggable audio player like in Spotify & Apple Music apps that 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.platform = :ios
+  s.swift_versions = ['5.0']
   # s.dependency 'AFNetworking', '~> 2.3'
 end
